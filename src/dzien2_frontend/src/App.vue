@@ -23,7 +23,7 @@ async function handleSubmit(e) {
       <label for="name">Enter your name: &nbsp;</label>
       <input id="name" alt="Name" type="text" />
       <label for="numer">Numer</label>
-      <input id="numer" alt="Numer" type="text" />
+      <input id="numer" alt="Numer" type="number" />
       <button type="submit">Click Me!</button>
     </form>
     <section id="greeting">{{ greeting }}</section>
